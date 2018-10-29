@@ -81,4 +81,4 @@ RpcClient.callspec = {
 
 ## License
 
-**Code released under [the MIT license]https://github.com/zeltsi/eclair-rpc/blob/master/LICENSE).**
+**Code released under [the MIT license](https://github.com/zeltsi/eclair-rpc/blob/master/LICENSE).**
