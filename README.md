@@ -12,7 +12,7 @@ npm install eclair-rpc
 ```
 
 ## Configure eclair node
-make sure eclair API is running and reachable. Example `.eclair/eclair.conf` file might look like:
+Install [eclair](https://github.com/ACINQ/eclair) and make sure eclair API is running and reachable. Example `.eclair/eclair.conf` file might look like:
 
 ```
 eclair.chain=testnet
@@ -22,7 +22,7 @@ eclair.node-color=49daaa
 
 eclair.bitcoind.rpcport=18333
 eclair.bitcoind.rpcuser=bitcoind_username
-eclair.bitcoind.rpcpassword=bitcoindp_assword
+eclair.bitcoind.rpcpassword=bitcoind_password
 
 
 eclair.api.enabled=true
@@ -71,7 +71,6 @@ RpcClient.callspec = {
   checkinvoice: 'str',
   close: 'str',
   connect: 'str str int',
-  generate: 'int',
   getinfo: '',
   open: 'str int',
   receive: 'int str',
@@ -82,4 +81,4 @@ RpcClient.callspec = {
 
 ## License
 
-**Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
+**Code released under [the MIT license]https://github.com/zeltsi/eclair-rpc/blob/master/LICENSE).**
