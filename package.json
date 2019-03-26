@@ -1,15 +1,16 @@
 {
-  "name": "eclair-rpc",
-  "description": "Connecting to eclair LN node. Based on Bitpay's bitcoind-rpc",
+  "name": "eclair-node-rpc",
+  "description": "Connecting to eclair LN node. Based Shlomi Zeltsinger <shlomi.zeltsinger@gmail.com> fork of Bitpay's bitcoind-rpc",
   "version": "0.0.1",
-  "author": "Shlomi Zeltsinger <shlomi.zeltsinger@gmail.com>",
+  "author": "Justin Camarena <juscamarena@gmail.com>",
   "keywords": [
     "eclair",
-    "rpc"
+    "rpc",
+    "lightning"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeltsi/eclair-rpc"
+    "url": "https://github.com/juscamarena/eclair-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js"
